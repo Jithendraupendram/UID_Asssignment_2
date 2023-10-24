@@ -1,6 +1,6 @@
 /* style.css */
 header {
-    background-color: hsl(132, 97%, 49%);
+    background-color: rgb(7, 239, 65);
     color: hsl(20, 99%, 49%);
     text-align: center;
     padding: 20px;
@@ -20,11 +20,11 @@ nav {
 
 nav ul {
     list-style: none;
-    padding: 0;
+padding: 0;   
     margin: 0;
 }
 /* style.css */
-
+ 
 /* Add this CSS for styling clicked links */
 nav ul li a:active {
     background-color: hsl(224, 52%, 54%);
