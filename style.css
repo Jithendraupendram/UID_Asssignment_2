@@ -1,0 +1,95 @@
+/* style.css */
+header {
+    background-color: hsl(132, 97%, 49%);
+    color: hsl(20, 99%, 49%);
+    text-align: center;
+    padding: 20px;
+}
+body { 
+  font-family: Arial, sans-serif;
+  background-color: hwb(0 97% 2%);
+  background-image: url("pexels-jess-bailey-designs-743986.jpg");
+  background-size: cover;
+  background-position: 20px;
+  margin: 0;
+  padding: 0;
+}
+nav {
+    background-color: hsl(255, 100%, 51%);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* style.css */
+
+/* Add this CSS for styling clicked links */
+nav ul li a:active {
+    background-color: hsl(224, 52%, 54%);
+    color: #fff;
+}
+
+
+#loan-calculator {
+      background-color: hsl(0, 91%, 52%);
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    #loan-form {
+      text-align: left;
+    }
+
+    #loan-form div {
+      margin: 10px 0;
+    }
+
+    #results {
+      margin-top: 20px;
+    }
+
+    #results h2 {
+      margin-top: 10px;
+    }
+
+
+nav ul li a:active {
+    color: #ff0000; /* Change the color to your desired impression color */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+button {
+    background-color: #0074D9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Additional styles for specific pages can be added below */
+
+/* Add styles for the loan calculator and student register forms if needed */
+
+/* Add security-related styles as required */
